@@ -1,0 +1,33 @@
+{
+    "name": "lunchdeploy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "parcel index.html",
+      "build": "parcel build index.html"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/drakeapps/lunchdeploy.git"
+    },
+    "author": "James Wilson",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/drakeapps/lunchdeploy/issues"
+    },
+    "homepage": "https://github.com/drakeapps/lunchdeploy#readme",
+    "devDependencies": {
+      "@babel/preset-react": "^7.14.5",
+      "parcel-bundler": "^1.12.5",
+      "postcss": "^8.3.6",
+      "sass": "^1.37.0"
+    },
+    "dependencies": {
+      "@fontsource/roboto": "^4.5.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    }
+  }
+  
